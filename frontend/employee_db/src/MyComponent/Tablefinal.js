@@ -47,7 +47,7 @@ export const TableBody = () => {
 
         const data = await res.message;
         console.log(data, 'data')
-        if (res.status == '500') {
+        if (res.status === '500') {
             window.alert("Invalid");
 
         }
